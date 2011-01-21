@@ -4,6 +4,7 @@ Ruby wrapper for the [LinkedIn API](http://developer.linkedin.com). Heavily insp
 
 This is a slightly modified version created by Jacob Carlson to get around an annoying issue with oauth dependencies. 
 
+=======
 ## Installation
 
     sudo gem install gemcutter
