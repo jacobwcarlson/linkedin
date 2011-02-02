@@ -2,7 +2,7 @@
 
 Ruby wrapper for the [LinkedIn API](http://developer.linkedin.com). Heavily inspired by [John Nunemaker's](http://github.com/jnunemaker) [Twitter gem](http://github.com/jnunemaker/twitter), the LinkedIn gem provides an easy-to-use wrapper for LinkedIn's Oauth/XML APIs.
 
-This is a slightly modified version created by Jacob Carlson to get around an annoying issue with oauth dependencies. 
+This is a slightly modified version created by Jacob Carlson to get around an annoying issue with oauth dependencies and allow the returning of public profile URLs.
 
 =======
 ## Installation

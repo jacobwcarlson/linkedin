@@ -7,6 +7,7 @@ module LinkedIn
                         current_status current_status_timestamp summary
                         specialties proposal_comments associations honors
                         interests picture_url distance num_recommenders]
+                        
 
     PROFILE_FIELDS.each do |f|
       define_method(f.to_sym) do
@@ -24,6 +25,10 @@ module LinkedIn
 
     def site_standard_profile_request
       @doc.xpath('//site-standard-profile-request/url').text
+    end
+
+    def site_public_profile_request
+      @doc.xpath('//site-public-profile-request/url').text
     end
 
     def relation_to_viewer

@@ -1,5 +1,9 @@
 # Changelog
 
+##  0.1.7a - February 2, 2011
+
+* Added support for returning the public URL from a profile.
+
 ##  0.1.7 - February 5, 2010
 
 * New group join status support JGRP from Terry Ray
